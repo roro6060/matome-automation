@@ -19,7 +19,7 @@ class Genshin_settings(Summarize_Settings):
             wordpress_url='',
             wordpress_user='',
             wordpress_password='',
-            wordpress_categorie_slugs=['genshin', ],
+            wordpress_categorie_slugs=[],
             wordpress_tag_slugs=[],
             save_outputs=False,
             base_logs_dir='./logs',
