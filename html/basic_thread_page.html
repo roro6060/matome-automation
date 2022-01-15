@@ -1,0 +1,11 @@
+<div>
+    {% for item in items %}
+    <div>{{ item.idx }}{{ item.name }}{{ item.time }}{{ item.id }}</div>
+    <div>{{ item.text }}</div>
+    {% for f_div in item.footer %}
+    {{ f_div }}
+    <br>
+    {% endfor %}
+    {% endfor %}
+</div>
+<p><a href="{{ url }}"></a></p>
