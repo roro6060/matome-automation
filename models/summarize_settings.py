@@ -125,8 +125,9 @@ class Summarize_Settings(object):
         }, {
             'name': 'twitter',
             'reps': re.compile("https?://(twitter\.com|t\.co)[\w!\?/\+\-_~=;\.,\*&@#\$%\(\)'\[\]]+"),
-            'func': lambda x: self.twitter_div(x),
-            'footer': False,
+            'func': lambda x: '',
+            'footer': True,
+            'footer_func': lambda x: self.return_url(x),
             'if':[],
         }, {
             'name': 'url',
