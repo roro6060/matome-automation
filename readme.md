@@ -54,11 +54,11 @@ anacondaを使用し python 3.6.13 で環境を準備ください。それ以外
 
 必要なライブラリは下記となります。
 ```
-conda install requests beautifulsoup4 jinja2 -y
-conda install -c conda-forge fake-useragent -y
-conda install -c conda-forge selenium -y
-conda install -c conda-forge sentence-transformers -y
-conda install -c huggingface transformers -y
+conda install requests beautifulsoup4 jinja2
+conda install -c conda-forge fake-useragent
+conda install -c conda-forge selenium
+conda install -c conda-forge sentence-transformers
+conda install -c huggingface transformers
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch -
 pip install git+https://github.com/boudinfl/pke.git
 python -m nltk.downloader stopwords
